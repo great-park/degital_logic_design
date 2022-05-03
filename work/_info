@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/main/digital_design/practice
+vfull_adder
+Z0 !s110 1651588850
+!i10b 1
+!s100 n;_iXKBSZ2^JTW77j[=YI2
+IFMCU3^I[DR[9ADUcShhl72
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/main/digital_design
+w1651588256
+8D:/main/digital_design/full_adder.v
+FD:/main/digital_design/full_adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1651588850.000000
+!s107 D:/main/digital_design/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/full_adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vhalf_adder
+R0
+!i10b 1
+!s100 ^h@:QT@7H;DHhTXkAmDom2
+ITK:P@B<Ja];X1SOZQ0R?03
+R1
+R2
+w1651588036
+8D:/main/digital_design/half_adder.v
+FD:/main/digital_design/half_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/main/digital_design/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/half_adder.v|
+!i113 1
+R5
+R6
+vor_gate
+R0
+!i10b 1
+!s100 _2JzOlb[Tn;6b0LF:K`cO3
+I8]1ZWE7BiciN:<h__?3]J0
+R1
+R2
+w1651588072
+8D:/main/digital_design/or.v
+FD:/main/digital_design/or.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/main/digital_design/or.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/or.v|
+!i113 1
+R5
+R6
+vtb_full_adder
+R0
+!i10b 1
+!s100 bGk_iSCJ[R8QXL[K;>?3V3
+I0n]fHH:OPD0nlz6;=WCO>0
+R1
+R2
+w1651588847
+8D:/main/digital_design/tb_full_adder.v
+FD:/main/digital_design/tb_full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/main/digital_design/tb_full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/tb_full_adder.v|
+!i113 1
+R5
+R6

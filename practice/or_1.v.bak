@@ -1,0 +1,10 @@
+module or_1(x,y,z,o);
+input x,y,z;
+output o;
+
+wire w1;
+assign w1 = x | y;
+assign o = w1 | z;
+
+endmodule
+

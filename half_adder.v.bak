@@ -1,0 +1,21 @@
+module half_adder(s_out, c_out,x,y);
+input x,y;
+output s_out,c_out;
+
+reg s_out,c_out;
+
+always @(x,y)
+begin
+ if(a!=b)
+   s=1;
+ else
+   s=0;
+end
+always @(x,y)
+begin
+ if(a==1 & b==1)
+  c=1;
+ else 
+  c=0;
+end
+endmodule

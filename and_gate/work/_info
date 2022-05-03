@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/main/modelsim
+vand2
+!s110 1649642419
+!i10b 1
+!s100 a>Q8j;>OjU3e?H19=_XHZ3
+I?2z]QiBGB?=_OFc1;EVXo3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/main/digital_design/and_gate
+w1649642413
+8D:/main/digital_design/and_gate/and2.v
+FD:/main/digital_design/and_gate/and2.v
+L0 2
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1649642419.000000
+!s107 D:/main/digital_design/and_gate/and2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/and_gate/and2.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vtb_and2
+!s110 1649642459
+!i10b 1
+!s100 JSz@T=Tj_Z`J0B[Dh[eZV2
+IkNjdMM:<>h;G9bF9[EhH?1
+R0
+R1
+w1649642456
+8D:/main/digital_design/and_gate/tb_and2.v
+FD:/main/digital_design/and_gate/tb_and2.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1649642459.000000
+!s107 D:/main/digital_design/and_gate/tb_and2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/and_gate/tb_and2.v|
+!i113 1
+R3
+R4
