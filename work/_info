@@ -9,23 +9,23 @@ z2
 cModel Technology
 dD:/main/digital_design/practice
 vfull_adder
-Z0 !s110 1651588850
+Z0 !s110 1651592751
 !i10b 1
 !s100 n;_iXKBSZ2^JTW77j[=YI2
-IFMCU3^I[DR[9ADUcShhl72
+I5AGUTmO_f52FhzmV0fNdX0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dD:/main/digital_design
-w1651588256
-8D:/main/digital_design/full_adder.v
-FD:/main/digital_design/full_adder.v
+w1651590107
+8D:\main\digital_design\full_adder.v
+FD:\main\digital_design\full_adder.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1651588850.000000
-!s107 D:/main/digital_design/full_adder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/full_adder.v|
+Z4 !s108 1651592751.000000
+!s107 D:\main\digital_design\full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\full_adder.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
@@ -71,6 +71,28 @@ R4
 !i113 1
 R5
 R6
+vRCA_4bit
+R0
+!i10b 1
+!s100 A<F3^:]I?S1Q=m:d0L^Ol1
+I<YFH_[GjL>1m`>VVVd]C93
+R1
+R2
+w1651592189
+8D:\main\digital_design\RCA_4bit.v
+FD:\main\digital_design\RCA_4bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\main\digital_design\RCA_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\RCA_4bit.v|
+!i113 1
+R5
+R6
+n@r@c@a_4bit
 vtb_full_adder
 R0
 !i10b 1
@@ -92,3 +114,25 @@ R4
 !i113 1
 R5
 R6
+vtb_RCA_4bit
+R0
+!i10b 1
+!s100 XDI]525SL3QVE=_T00UG]0
+IXjh00ZZH1bW5J0VoTz;kU1
+R1
+R2
+w1651592750
+8D:/main/digital_design/tb_RCA_4bit.v
+FD:/main/digital_design/tb_RCA_4bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/main/digital_design/tb_RCA_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/tb_RCA_4bit.v|
+!i113 1
+R5
+R6
+ntb_@r@c@a_4bit
