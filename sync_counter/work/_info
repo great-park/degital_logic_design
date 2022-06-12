@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/main/digital_design/async_counter
+vcnt0
+Z0 !s110 1655039914
+!i10b 1
+!s100 Q@ddfa34zQ2EWBAK>le_f3
+ImQhYj8VeE4?MW>NdKAJ`E2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/main/digital_design/sync_counter
+w1655037727
+8D:\main\digital_design\sync_counter\cnt0.v
+FD:\main\digital_design\sync_counter\cnt0.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1655039914.000000
+!s107 D:\main\digital_design\sync_counter\cnt0.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\sync_counter\cnt0.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcnt1
+R0
+!i10b 1
+!s100 QbM>GHCh<G3<=8PL5d64V1
+If0F9=ADfC:`aQZJ[nVh>l0
+R1
+R2
+w1655039875
+8D:\main\digital_design\sync_counter\cnt1.v
+FD:\main\digital_design\sync_counter\cnt1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\main\digital_design\sync_counter\cnt1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\sync_counter\cnt1.v|
+!i113 1
+R5
+R6
+vcnt2
+Z7 !s110 1655039915
+!i10b 1
+!s100 AbGbG9[7oRZ8K>;T4G1<[0
+ISAbVh<e[RlIc;j8fU1enn1
+R1
+R2
+w1655039873
+8D:/main/digital_design/sync_counter/cnt2.v
+FD:/main/digital_design/sync_counter/cnt2.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1655039915.000000
+!s107 D:/main/digital_design/sync_counter/cnt2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/sync_counter/cnt2.v|
+!i113 1
+R5
+R6
+vcnt3
+R7
+!i10b 1
+!s100 @m<^aX:I3<CQiBioE5BB]3
+IBEEOYen4XZI65PNnfzSR>1
+R1
+R2
+w1655039871
+8D:/main/digital_design/sync_counter/cnt3.v
+FD:/main/digital_design/sync_counter/cnt3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/main/digital_design/sync_counter/cnt3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/sync_counter/cnt3.v|
+!i113 1
+R5
+R6
+vsync_cnt
+R7
+!i10b 1
+!s100 8zRR387eY6<de5[Gd^nLe1
+IG0]_mHLeC>4F@<TVQX4EL1
+R1
+R2
+w1655038496
+8D:/main/digital_design/sync_counter/sync_cnt.v
+FD:/main/digital_design/sync_counter/sync_cnt.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/main/digital_design/sync_counter/sync_cnt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/sync_counter/sync_cnt.v|
+!i113 1
+R5
+R6
+vtb_async_cnt
+Z9 !s110 1655037834
+!i10b 1
+!s100 zfnzGgVkH<2GiFJ;?77IM0
+IAMe7fTQ6zoT`YIYC8EHN;0
+R1
+R2
+w1655037827
+8D:/main/digital_design/sync_counter/tb_sync_cnt.v
+FD:/main/digital_design/sync_counter/tb_sync_cnt.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z10 !s108 1655037834.000000
+!s107 D:/main/digital_design/sync_counter/tb_sync_cnt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/sync_counter/tb_sync_cnt.v|
+!i113 1
+R5
+R6
+vtb_cnt0
+R9
+!i10b 1
+!s100 JO;`jka7`hdTAA0Eh6f>i0
+IM`mVUzPgfDEon^78Ec6Ad3
+R1
+R2
+w1655037269
+8D:\main\digital_design\sync_counter\tb_cnt0.v
+FD:\main\digital_design\sync_counter\tb_cnt0.v
+L0 4
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:\main\digital_design\sync_counter\tb_cnt0.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\sync_counter\tb_cnt0.v|
+!i113 1
+R5
+R6
+vtb_sync_cnt
+R7
+!i10b 1
+!s100 mf@_FF>z34TejXEohI7cU2
+IIW2Ne?<VnFc257OLU<g451
+R1
+R2
+w1655039614
+8D:\main\digital_design\sync_counter\tb_sync_cnt.v
+FD:\main\digital_design\sync_counter\tb_sync_cnt.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:\main\digital_design\sync_counter\tb_sync_cnt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\sync_counter\tb_sync_cnt.v|
+!i113 1
+R5
+R6
