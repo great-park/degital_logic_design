@@ -1,0 +1,29 @@
+D:/main/digital_design/async_counter/async_cnt.v {1 {vlog -work work -stats=none {D:\main\digital_design\async_counter\async_cnt.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module async_cnt
+
+Top level modules:
+	async_cnt
+
+} {} {}} D:/main/digital_design/async_counter/cnt10.v {1 {vlog -work work -stats=none {D:\main\digital_design\async_counter\cnt10.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt10
+
+Top level modules:
+	cnt10
+
+} {} {}} D:/main/digital_design/async_counter/tb_async_cnt.v {1 {vlog -work work -stats=none {D:\main\digital_design\async_counter\tb_async_cnt.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_async_cnt
+
+Top level modules:
+	tb_async_cnt
+
+} {} {}} D:/main/digital_design/async_counter/counter.v {1 {vlog -work work -stats=none {D:\main\digital_design\async_counter\counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

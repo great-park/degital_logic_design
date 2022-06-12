@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/main/digital_design
+vasync_cnt
+Z0 !s110 1655035364
+!i10b 1
+!s100 Uc9nNiz5mY4a@aT88J:aG1
+Ihfnj[k4`W;ln2XeCD=fb41
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/main/digital_design/async_counter
+w1655034932
+8D:\main\digital_design\async_counter\async_cnt.v
+FD:\main\digital_design\async_counter\async_cnt.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1655035364.000000
+!s107 D:\main\digital_design\async_counter\async_cnt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\async_counter\async_cnt.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcnt10
+R0
+!i10b 1
+!s100 ZBSQ2RZ7LaLjDd9<WX2Lc1
+I_YKoKhWY=I@[Y4X55Rh5e2
+R1
+R2
+w1655035133
+8D:\main\digital_design\async_counter\cnt10.v
+FD:\main\digital_design\async_counter\cnt10.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\main\digital_design\async_counter\cnt10.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\async_counter\cnt10.v|
+!i113 1
+R5
+R6
+vcounter
+R0
+!i10b 1
+!s100 W@HNMmEWJYCdPUa<a<]h=2
+I55IKickGd`1_ES3>_^ldJ3
+R1
+R2
+w1655035101
+8D:\main\digital_design\async_counter\counter.v
+FD:\main\digital_design\async_counter\counter.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\main\digital_design\async_counter\counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\async_counter\counter.v|
+!i113 1
+R5
+R6
+vtb_async_cnt
+R0
+!i10b 1
+!s100 gg6mPkn^lJFTIK5JC__V_3
+Ia;Kj21NCWZ>2SGkW8fMQT1
+R1
+R2
+w1655035361
+8D:\main\digital_design\async_counter\tb_async_cnt.v
+FD:\main\digital_design\async_counter\tb_async_cnt.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\main\digital_design\async_counter\tb_async_cnt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\async_counter\tb_async_cnt.v|
+!i113 1
+R5
+R6
