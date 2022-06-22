@@ -1,0 +1,537 @@
+Analysis & Synthesis report for top_clock
+Wed Jun 22 21:07:24 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Port Connectivity Checks: "clk_dll36000:u5"
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+ 15. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Wed Jun 22 21:07:24 2022       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; top_clock                                   ;
+; Top-level Entity Name           ; top_clock                                   ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 87                                          ;
+; Total pins                      ; 44                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
+; Top-level entity name                                                           ; top_clock          ; top_clock          ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                            ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                              ; Library ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
+; top_clock.v                      ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/top_clock.v    ;         ;
+; seg7.v                           ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/seg7.v         ;         ;
+; counter9.v                       ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/counter9.v     ;         ;
+; counter6.v                       ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/counter6.v     ;         ;
+; counter4.v                       ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/counter4.v     ;         ;
+; clk_dll36000.v                   ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/clk_dll36000.v ;         ;
+; clk_dll3600.v                    ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/clk_dll3600.v  ;         ;
+; clk_dll600.v                     ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/clk_dll600.v   ;         ;
+; clk_dll60.v                      ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/clk_dll60.v    ;         ;
+; clk_dll10.v                      ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/clk_dll10.v    ;         ;
+; clk_dll.v                        ; yes             ; User Verilog HDL File  ; D:/main/digital_design/final_digital_clock/clk_dll.v      ;         ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 94        ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 176       ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 10        ;
+;     -- 5 input functions                    ; 8         ;
+;     -- 4 input functions                    ; 40        ;
+;     -- <=3 input functions                  ; 118       ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 87        ;
+;                                             ;           ;
+; I/O pins                                    ; 44        ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; rst~input ;
+; Maximum fan-out                             ; 87        ;
+; Total fan-out                               ; 945       ;
+; Average fan-out                             ; 2.69      ;
++---------------------------------------------+-----------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                          ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
+; |top_clock                 ; 176 (0)             ; 87 (0)                    ; 0                 ; 0          ; 44   ; 0            ; |top_clock                ; top_clock   ; work         ;
+;    |clk_dll10:u1|          ; 4 (4)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|clk_dll10:u1   ; clk_dll10   ; work         ;
+;    |clk_dll3600:u4|        ; 3 (3)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|clk_dll3600:u4 ; clk_dll3600 ; work         ;
+;    |clk_dll600:u3|         ; 4 (4)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|clk_dll600:u3  ; clk_dll600  ; work         ;
+;    |clk_dll60:u2|          ; 3 (3)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|clk_dll60:u2   ; clk_dll60   ; work         ;
+;    |clk_dll:u0|            ; 35 (35)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |top_clock|clk_dll:u0     ; clk_dll     ; work         ;
+;    |counter4:u10|          ; 20 (20)             ; 15 (15)                   ; 0                 ; 0          ; 0    ; 0            ; |top_clock|counter4:u10   ; counter4    ; work         ;
+;    |counter6:u7|           ; 4 (4)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|counter6:u7    ; counter6    ; work         ;
+;    |counter6:u9|           ; 4 (4)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|counter6:u9    ; counter6    ; work         ;
+;    |counter9:u6|           ; 4 (4)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|counter9:u6    ; counter9    ; work         ;
+;    |counter9:u8|           ; 4 (4)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|counter9:u8    ; counter9    ; work         ;
+;    |seg7:u11|              ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|seg7:u11       ; seg7        ; work         ;
+;    |seg7:u12|              ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|seg7:u12       ; seg7        ; work         ;
+;    |seg7:u13|              ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|seg7:u13       ; seg7        ; work         ;
+;    |seg7:u14|              ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|seg7:u14       ; seg7        ; work         ;
+;    |seg7:u15|              ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|seg7:u15       ; seg7        ; work         ;
+;    |seg7:u16|              ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top_clock|seg7:u16       ; seg7        ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; seg7:u11|seg[0]                                     ; seg7:u11|Mux7       ; yes                    ;
+; seg7:u11|seg[1]                                     ; seg7:u11|Mux7       ; yes                    ;
+; seg7:u11|seg[2]                                     ; seg7:u11|Mux7       ; yes                    ;
+; seg7:u11|seg[3]                                     ; seg7:u11|Mux7       ; yes                    ;
+; seg7:u11|seg[4]                                     ; seg7:u11|Mux7       ; yes                    ;
+; seg7:u11|seg[5]                                     ; seg7:u11|Mux7       ; yes                    ;
+; seg7:u11|seg[6]                                     ; seg7:u11|Mux7       ; yes                    ;
+; seg7:u12|seg[0]                                     ; seg7:u12|Mux7       ; yes                    ;
+; seg7:u12|seg[1]                                     ; seg7:u12|Mux7       ; yes                    ;
+; seg7:u12|seg[2]                                     ; seg7:u12|Mux7       ; yes                    ;
+; seg7:u12|seg[3]                                     ; seg7:u12|Mux7       ; yes                    ;
+; seg7:u12|seg[4]                                     ; seg7:u12|Mux7       ; yes                    ;
+; seg7:u12|seg[5]                                     ; seg7:u12|Mux7       ; yes                    ;
+; seg7:u12|seg[6]                                     ; seg7:u12|Mux7       ; yes                    ;
+; seg7:u13|seg[0]                                     ; seg7:u13|Mux7       ; yes                    ;
+; seg7:u13|seg[1]                                     ; seg7:u13|Mux7       ; yes                    ;
+; seg7:u13|seg[2]                                     ; seg7:u13|Mux7       ; yes                    ;
+; seg7:u13|seg[3]                                     ; seg7:u13|Mux7       ; yes                    ;
+; seg7:u13|seg[4]                                     ; seg7:u13|Mux7       ; yes                    ;
+; seg7:u13|seg[5]                                     ; seg7:u13|Mux7       ; yes                    ;
+; seg7:u13|seg[6]                                     ; seg7:u13|Mux7       ; yes                    ;
+; seg7:u14|seg[0]                                     ; seg7:u14|Mux7       ; yes                    ;
+; seg7:u14|seg[1]                                     ; seg7:u14|Mux7       ; yes                    ;
+; seg7:u14|seg[2]                                     ; seg7:u14|Mux7       ; yes                    ;
+; seg7:u14|seg[3]                                     ; seg7:u14|Mux7       ; yes                    ;
+; seg7:u14|seg[4]                                     ; seg7:u14|Mux7       ; yes                    ;
+; seg7:u14|seg[5]                                     ; seg7:u14|Mux7       ; yes                    ;
+; seg7:u14|seg[6]                                     ; seg7:u14|Mux7       ; yes                    ;
+; seg7:u15|seg[0]                                     ; seg7:u15|Mux7       ; yes                    ;
+; seg7:u15|seg[1]                                     ; seg7:u15|Mux7       ; yes                    ;
+; seg7:u15|seg[2]                                     ; seg7:u15|Mux7       ; yes                    ;
+; seg7:u15|seg[3]                                     ; seg7:u15|Mux7       ; yes                    ;
+; seg7:u15|seg[4]                                     ; seg7:u15|Mux7       ; yes                    ;
+; seg7:u15|seg[5]                                     ; seg7:u15|Mux7       ; yes                    ;
+; seg7:u15|seg[6]                                     ; seg7:u15|Mux7       ; yes                    ;
+; seg7:u16|seg[0]                                     ; seg7:u16|Mux7       ; yes                    ;
+; seg7:u16|seg[1]                                     ; seg7:u16|Mux7       ; yes                    ;
+; seg7:u16|seg[2]                                     ; seg7:u16|Mux7       ; yes                    ;
+; seg7:u16|seg[3]                                     ; seg7:u16|Mux7       ; yes                    ;
+; seg7:u16|seg[4]                                     ; seg7:u16|Mux7       ; yes                    ;
+; seg7:u16|seg[5]                                     ; seg7:u16|Mux7       ; yes                    ;
+; seg7:u16|seg[6]                                     ; seg7:u16|Mux7       ; yes                    ;
+; Number of user-specified and inferred latches = 42  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 87    ;
+; Number of registers using Synchronous Clear  ; 25    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 87    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 4     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |top_clock|counter4:u10|temp[3] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |top_clock|counter4:u10|q2[3]   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clk_dll36000:u5"                                                                       ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; out_clk ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 87                          ;
+;     CLR               ; 58                          ;
+;     CLR SCLR          ; 25                          ;
+;     ENA CLR           ; 4                           ;
+; arriav_lcell_comb     ; 176                         ;
+;     arith             ; 25                          ;
+;         1 data inputs ; 25                          ;
+;     normal            ; 151                         ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 9                           ;
+;         3 data inputs ; 79                          ;
+;         4 data inputs ; 40                          ;
+;         5 data inputs ; 8                           ;
+;         6 data inputs ; 10                          ;
+; boundary_port         ; 44                          ;
+;                       ;                             ;
+; Max LUT depth         ; 3.40                        ;
+; Average LUT depth     ; 1.86                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Wed Jun 22 21:06:48 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top_clock -c top_clock
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file top_clock.v
+    Info (12023): Found entity 1: top_clock File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file seg7.v
+    Info (12023): Found entity 1: seg7 File: D:/main/digital_design/final_digital_clock/seg7.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file counter9.v
+    Info (12023): Found entity 1: counter9 File: D:/main/digital_design/final_digital_clock/counter9.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file counter6.v
+    Info (12023): Found entity 1: counter6 File: D:/main/digital_design/final_digital_clock/counter6.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file counter4.v
+    Info (12023): Found entity 1: counter4 File: D:/main/digital_design/final_digital_clock/counter4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file counter2.v
+    Info (12023): Found entity 1: counter2 File: D:/main/digital_design/final_digital_clock/counter2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clk_dll36000.v
+    Info (12023): Found entity 1: clk_dll36000 File: D:/main/digital_design/final_digital_clock/clk_dll36000.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clk_dll3600.v
+    Info (12023): Found entity 1: clk_dll3600 File: D:/main/digital_design/final_digital_clock/clk_dll3600.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clk_dll600.v
+    Info (12023): Found entity 1: clk_dll600 File: D:/main/digital_design/final_digital_clock/clk_dll600.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clk_dll60.v
+    Info (12023): Found entity 1: clk_dll60 File: D:/main/digital_design/final_digital_clock/clk_dll60.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clk_dll10.v
+    Info (12023): Found entity 1: clk_dll10 File: D:/main/digital_design/final_digital_clock/clk_dll10.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file clk_dll.v
+    Info (12023): Found entity 1: clk_dll File: D:/main/digital_design/final_digital_clock/clk_dll.v Line: 1
+Info (12127): Elaborating entity "top_clock" for the top level hierarchy
+Info (12128): Elaborating entity "clk_dll" for hierarchy "clk_dll:u0" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 15
+Warning (10230): Verilog HDL assignment warning at clk_dll.v(19): truncated value with size 32 to match size of target (25) File: D:/main/digital_design/final_digital_clock/clk_dll.v Line: 19
+Info (12128): Elaborating entity "clk_dll10" for hierarchy "clk_dll10:u1" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 17
+Warning (10230): Verilog HDL assignment warning at clk_dll10.v(19): truncated value with size 32 to match size of target (3) File: D:/main/digital_design/final_digital_clock/clk_dll10.v Line: 19
+Info (12128): Elaborating entity "clk_dll60" for hierarchy "clk_dll60:u2" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 18
+Warning (10230): Verilog HDL assignment warning at clk_dll60.v(19): truncated value with size 32 to match size of target (2) File: D:/main/digital_design/final_digital_clock/clk_dll60.v Line: 19
+Info (12128): Elaborating entity "clk_dll600" for hierarchy "clk_dll600:u3" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 19
+Warning (10230): Verilog HDL assignment warning at clk_dll600.v(19): truncated value with size 32 to match size of target (3) File: D:/main/digital_design/final_digital_clock/clk_dll600.v Line: 19
+Info (12128): Elaborating entity "clk_dll3600" for hierarchy "clk_dll3600:u4" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 20
+Warning (10230): Verilog HDL assignment warning at clk_dll3600.v(19): truncated value with size 32 to match size of target (2) File: D:/main/digital_design/final_digital_clock/clk_dll3600.v Line: 19
+Info (12128): Elaborating entity "clk_dll36000" for hierarchy "clk_dll36000:u5" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 21
+Warning (10230): Verilog HDL assignment warning at clk_dll36000.v(19): truncated value with size 32 to match size of target (3) File: D:/main/digital_design/final_digital_clock/clk_dll36000.v Line: 19
+Info (12128): Elaborating entity "counter9" for hierarchy "counter9:u6" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 30
+Warning (10230): Verilog HDL assignment warning at counter9.v(21): truncated value with size 32 to match size of target (4) File: D:/main/digital_design/final_digital_clock/counter9.v Line: 21
+Info (12128): Elaborating entity "counter6" for hierarchy "counter6:u7" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 31
+Warning (10230): Verilog HDL assignment warning at counter6.v(21): truncated value with size 32 to match size of target (4) File: D:/main/digital_design/final_digital_clock/counter6.v Line: 21
+Info (12128): Elaborating entity "counter4" for hierarchy "counter4:u10" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 34
+Warning (10230): Verilog HDL assignment warning at counter4.v(24): truncated value with size 32 to match size of target (3) File: D:/main/digital_design/final_digital_clock/counter4.v Line: 24
+Warning (10230): Verilog HDL assignment warning at counter4.v(25): truncated value with size 32 to match size of target (4) File: D:/main/digital_design/final_digital_clock/counter4.v Line: 25
+Warning (10230): Verilog HDL assignment warning at counter4.v(26): truncated value with size 32 to match size of target (4) File: D:/main/digital_design/final_digital_clock/counter4.v Line: 26
+Warning (10230): Verilog HDL assignment warning at counter4.v(29): truncated value with size 32 to match size of target (4) File: D:/main/digital_design/final_digital_clock/counter4.v Line: 29
+Info (12128): Elaborating entity "seg7" for hierarchy "seg7:u11" File: D:/main/digital_design/final_digital_clock/top_clock.v Line: 37
+Warning (10270): Verilog HDL Case Statement warning at seg7.v(10): incomplete case statement has no default case item File: D:/main/digital_design/final_digital_clock/seg7.v Line: 10
+Warning (10240): Verilog HDL Always Construct warning at seg7.v(8): inferring latch(es) for variable "seg", which holds its previous value in one or more paths through the always construct File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Info (10041): Inferred latch for "seg[0]" at seg7.v(8) File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Info (10041): Inferred latch for "seg[1]" at seg7.v(8) File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Info (10041): Inferred latch for "seg[2]" at seg7.v(8) File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Info (10041): Inferred latch for "seg[3]" at seg7.v(8) File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Info (10041): Inferred latch for "seg[4]" at seg7.v(8) File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Info (10041): Inferred latch for "seg[5]" at seg7.v(8) File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Info (10041): Inferred latch for "seg[6]" at seg7.v(8) File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+Warning (13012): Latch seg7:u11|seg[0] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u6|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u11|seg[1] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u6|q[2] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u11|seg[2] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u6|q[2] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u11|seg[3] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u6|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u11|seg[4] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u6|q[2] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u11|seg[5] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u6|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u11|seg[6] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u6|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u12|seg[0] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u7|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u12|seg[1] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u7|q[2] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u12|seg[2] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u7|q[2] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u12|seg[3] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u7|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u12|seg[4] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u7|q[2] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u12|seg[5] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u7|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u12|seg[6] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u7|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u13|seg[0] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u8|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u13|seg[1] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u8|q[2] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u13|seg[2] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u8|q[2] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u13|seg[3] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u8|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u13|seg[4] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u8|q[2] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u13|seg[5] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u8|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u13|seg[6] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter9:u8|q[1] File: D:/main/digital_design/final_digital_clock/counter9.v Line: 18
+Warning (13012): Latch seg7:u14|seg[0] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u9|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u14|seg[1] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u9|q[2] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u14|seg[2] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u9|q[2] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u14|seg[3] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u9|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u14|seg[4] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u9|q[2] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u14|seg[5] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u9|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u14|seg[6] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter6:u9|q[1] File: D:/main/digital_design/final_digital_clock/counter6.v Line: 18
+Warning (13012): Latch seg7:u15|seg[0] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u15|seg[1] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q[2] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u15|seg[2] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q[2] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u15|seg[3] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u15|seg[4] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q[2] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u15|seg[5] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u15|seg[6] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u16|seg[0] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q2[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u16|seg[1] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q2[2] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u16|seg[2] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q2[2] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u16|seg[3] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q2[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u16|seg[4] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q2[2] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u16|seg[5] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q2[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Warning (13012): Latch seg7:u16|seg[6] has unsafe behavior File: D:/main/digital_design/final_digital_clock/seg7.v Line: 8
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter4:u10|q2[1] File: D:/main/digital_design/final_digital_clock/counter4.v Line: 20
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file D:/main/digital_design/final_digital_clock/output_files/top_clock.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 237 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 42 output pins
+    Info (21061): Implemented 193 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 99 warnings
+    Info: Peak virtual memory: 4857 megabytes
+    Info: Processing ended: Wed Jun 22 21:07:24 2022
+    Info: Elapsed time: 00:00:36
+    Info: Total CPU time (on all processors): 00:01:00
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in D:/main/digital_design/final_digital_clock/output_files/top_clock.map.smsg.
+
+

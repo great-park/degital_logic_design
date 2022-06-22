@@ -9,7 +9,6 @@ reg [2:0] tmp2;
 reg [3:0] out1, tmp;
 
 always @(posedge clk or negedge rst) begin
-    begin
         if(!rst)
         begin
             seg_clk <=0;
@@ -23,7 +22,6 @@ always @(posedge clk or negedge rst) begin
             else if(tmp2==0)
             seg_clk <= ~seg_clk;
         end
-    end
 end
 
 always @(posedge seg_clk or negedge rst) begin

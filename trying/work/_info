@@ -1,0 +1,325 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/main/digital_design/digital_clock
+vclk_dll
+Z0 !s110 1655893652
+!i10b 1
+!s100 mgjXeS]HI_8kcHP7BW:UM2
+IdPUk^=NP>m728[JmL`EE`2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/main/digital_design/trying
+w1655888466
+8D:/main/digital_design/trying/clk_dll.v
+FD:/main/digital_design/trying/clk_dll.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1655893651.000000
+!s107 D:/main/digital_design/trying/clk_dll.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/clk_dll.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vclk_dll10
+R0
+!i10b 1
+!s100 6]j;BVGSmR07cM2FANWfQ3
+I1Naa2SnD]LK^dfUe7GXJX0
+R1
+R2
+w1655889141
+8D:/main/digital_design/trying/clk_dll10.v
+FD:/main/digital_design/trying/clk_dll10.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z6 !s108 1655893652.000000
+!s107 D:/main/digital_design/trying/clk_dll10.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/clk_dll10.v|
+!i113 1
+R4
+R5
+vclk_dll3600
+R0
+!i10b 1
+!s100 TfKST1Z`48b[_f>^3Id_`3
+I28UEgnlh<V>J^dcAI94Q@0
+R1
+R2
+w1655887160
+8D:/main/digital_design/trying/clk_dll3600.v
+FD:/main/digital_design/trying/clk_dll3600.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/trying/clk_dll3600.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/clk_dll3600.v|
+!i113 1
+R4
+R5
+vclk_dll36000
+R0
+!i10b 1
+!s100 XM=zM_l49Tn4[:9TRB9SJ0
+IYdY66_X=ml1B<oA8kIN981
+R1
+R2
+w1655887170
+8D:/main/digital_design/trying/clk_dll36000.v
+FD:/main/digital_design/trying/clk_dll36000.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/trying/clk_dll36000.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/clk_dll36000.v|
+!i113 1
+R4
+R5
+vclk_dll60
+R0
+!i10b 1
+!s100 ;Qfn:bZiFO2Pn0aW3an^<1
+Ien?@N43m1CjV56o`4Of4=2
+R1
+R2
+w1655887104
+8D:/main/digital_design/trying/clk_dll60.v
+FD:/main/digital_design/trying/clk_dll60.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/trying/clk_dll60.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/clk_dll60.v|
+!i113 1
+R4
+R5
+vclk_dll600
+R0
+!i10b 1
+!s100 _?DS;gFI3]mFcAhJegz=L0
+IoBFR66OO2Fh13]F_AP7no0
+R1
+R2
+w1655887142
+8D:/main/digital_design/trying/clk_dll600.v
+FD:/main/digital_design/trying/clk_dll600.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/trying/clk_dll600.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/clk_dll600.v|
+!i113 1
+R4
+R5
+vcounter
+!s110 1655889809
+!i10b 1
+!s100 Tc6mfTXTTfVW64VWNbEBf2
+IAoDaGRB[=zQkGEjEmTRbS2
+R1
+R2
+w1655889786
+8D:\main\digital_design\trying\counter.v
+FD:\main\digital_design\trying\counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1655889809.000000
+!s107 D:\main\digital_design\trying\counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\trying\counter.v|
+!i113 1
+R4
+R5
+vcounter2
+Z7 !s110 1655893653
+!i10b 1
+!s100 Eo3L4@hSzn7WVz?VeQg>B3
+IJ<0GYBW0LKHAQAncV6K<W3
+R1
+R2
+w1655890198
+8D:/main/digital_design/trying/counter2.v
+FD:/main/digital_design/trying/counter2.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1655893653.000000
+!s107 D:/main/digital_design/trying/counter2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/counter2.v|
+!i113 1
+R4
+R5
+vcounter4
+R7
+!i10b 1
+!s100 eK8RLEnk@NYIc>X2O^WlK2
+IdzFlcYLBaL_`P6Hbn9:PF1
+R1
+R2
+w1655893472
+8D:/main/digital_design/trying/counter4.v
+FD:/main/digital_design/trying/counter4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/main/digital_design/trying/counter4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/counter4.v|
+!i113 1
+R4
+R5
+vcounter6
+!s110 1655893654
+!i10b 1
+!s100 2Qi29EPROzB80ZZ7<V[2d3
+Ii3DcT7VKJa2h2m`MefNEY2
+R1
+R2
+w1655890541
+8D:/main/digital_design/trying/counter6.v
+FD:/main/digital_design/trying/counter6.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/main/digital_design/trying/counter6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/counter6.v|
+!i113 1
+R4
+R5
+vcounter9
+R7
+!i10b 1
+!s100 ;8B`F7d`dnGN;9YI3DT>T2
+Io`MTD2dDlIbAfE1i?SE5?3
+R1
+R2
+w1655890074
+8D:/main/digital_design/trying/counter9.v
+FD:/main/digital_design/trying/counter9.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/main/digital_design/trying/counter9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/counter9.v|
+!i113 1
+R4
+R5
+vseg7
+R7
+!i10b 1
+!s100 ;JJF<6>>YD93:VV4Qbk2z2
+IC[OJAEFJZQEWm<DQaIi>41
+R1
+R2
+w1655887787
+8D:/main/digital_design/trying/seg7.v
+FD:/main/digital_design/trying/seg7.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/trying/seg7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/seg7.v|
+!i113 1
+R4
+R5
+vtb_top
+R7
+!i10b 1
+!s100 cKE`fg>8Z_Z71_VFS<J:d3
+IXHeXhS:IEYP1Aen@FC8mF0
+R1
+R2
+w1655888189
+8D:\main\digital_design\trying\tb_top.v
+FD:\main\digital_design\trying\tb_top.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:\main\digital_design\trying\tb_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\trying\tb_top.v|
+!i113 1
+R4
+R5
+vtop_clock
+R7
+!i10b 1
+!s100 S_X_D3i9>dOlCm]ULc9A92
+I<B41;bGceBR7n?3>:27<a2
+R1
+R2
+w1655893649
+8D:/main/digital_design/trying/top_clock.v
+FD:/main/digital_design/trying/top_clock.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/main/digital_design/trying/top_clock.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/top_clock.v|
+!i113 1
+R4
+R5
+vtop_seg7
+!s110 1655888109
+!i10b 1
+!s100 T2iF;<9R7AefJ?GEfMDBm1
+IUAjWnga4X4?L?8DA9n6cW2
+R1
+R2
+w1655887523
+8D:/main/digital_design/trying/top.v
+FD:/main/digital_design/trying/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1655888109.000000
+!s107 D:/main/digital_design/trying/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/trying/top.v|
+!i113 1
+R4
+R5

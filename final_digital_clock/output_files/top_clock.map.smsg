@@ -1,0 +1,6 @@
+Warning (10268): Verilog HDL information at clk_dll36000.v(9): always construct contains both blocking and non-blocking assignments File: D:/main/digital_design/final_digital_clock/clk_dll36000.v Line: 9
+Warning (10268): Verilog HDL information at clk_dll3600.v(9): always construct contains both blocking and non-blocking assignments File: D:/main/digital_design/final_digital_clock/clk_dll3600.v Line: 9
+Warning (10268): Verilog HDL information at clk_dll600.v(9): always construct contains both blocking and non-blocking assignments File: D:/main/digital_design/final_digital_clock/clk_dll600.v Line: 9
+Warning (10268): Verilog HDL information at clk_dll60.v(9): always construct contains both blocking and non-blocking assignments File: D:/main/digital_design/final_digital_clock/clk_dll60.v Line: 9
+Warning (10268): Verilog HDL information at clk_dll10.v(9): always construct contains both blocking and non-blocking assignments File: D:/main/digital_design/final_digital_clock/clk_dll10.v Line: 9
+Warning (10268): Verilog HDL information at clk_dll.v(9): always construct contains both blocking and non-blocking assignments File: D:/main/digital_design/final_digital_clock/clk_dll.v Line: 9

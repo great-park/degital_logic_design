@@ -1,0 +1,92 @@
+D:/main/digital_design/trying/counter9.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/counter9.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter9
+
+Top level modules:
+	counter9
+
+} {} {}} D:/main/digital_design/trying/clk_dll60.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/clk_dll60.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_dll60
+
+Top level modules:
+	clk_dll60
+
+} {} {}} D:/main/digital_design/trying/clk_dll600.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/clk_dll600.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_dll600
+
+Top level modules:
+	clk_dll600
+
+} {} {}} D:/main/digital_design/trying/top_clock.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/top_clock.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_clock
+
+Top level modules:
+	top_clock
+
+} {} {}} D:/main/digital_design/trying/clk_dll36000.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/clk_dll36000.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_dll36000
+
+Top level modules:
+	clk_dll36000
+
+} {} {}} D:/main/digital_design/trying/clk_dll10.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/clk_dll10.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_dll10
+
+Top level modules:
+	clk_dll10
+
+} {} {}} D:/main/digital_design/trying/counter2.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/counter2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter2
+
+Top level modules:
+	counter2
+
+} {} {}} D:/main/digital_design/trying/counter4.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/counter4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter4
+
+Top level modules:
+	counter4
+
+} {} {}} D:/main/digital_design/trying/clk_dll.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/clk_dll.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_dll
+
+Top level modules:
+	clk_dll
+
+} {} {}} D:/main/digital_design/trying/counter6.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/counter6.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter6
+
+Top level modules:
+	counter6
+
+} {} {}} D:/main/digital_design/trying/clk_dll3600.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/clk_dll3600.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_dll3600
+
+Top level modules:
+	clk_dll3600
+
+} {} {}} D:/main/digital_design/trying/seg7.v {1 {vlog -work work -stats=none D:/main/digital_design/trying/seg7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7
+
+Top level modules:
+	seg7
+
+} {} {}} D:/main/digital_design/trying/tb_top.v {1 {vlog -work work -stats=none {D:\main\digital_design\trying\tb_top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}}

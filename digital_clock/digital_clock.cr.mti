@@ -1,0 +1,78 @@
+D:/main/digital_design/digital_clock/tb_top_seg7.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/tb_top_seg7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_top_seg7
+
+Top level modules:
+	tb_top_seg7
+
+} {} {}} D:/main/digital_design/digital_clock/cnt_h2.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/cnt_h2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_h2
+
+Top level modules:
+	cnt_h2
+
+} {} {}} D:/main/digital_design/digital_clock/seg7_9.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/seg7_9.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_9
+
+Top level modules:
+	seg7_9
+
+} {} {}} D:/main/digital_design/digital_clock/cnt_m60.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/cnt_m60.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_m60
+
+Top level modules:
+	cnt_m60
+
+} {} {}} D:/main/digital_design/digital_clock/cnt_h3.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/cnt_h3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_h3
+
+Top level modules:
+	cnt_h3
+
+} {} {}} D:/main/digital_design/digital_clock/top_seg7.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/top_seg7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_seg7
+
+Top level modules:
+	top_seg7
+
+} {} {}} D:/main/digital_design/digital_clock/cnt_m9.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/cnt_m9.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_m9
+
+Top level modules:
+	cnt_m9
+
+} {} {}} {D:/main/digital_design/digital_clock/cnt4 (1).v} {1 {vlog -work work -stats=none {D:/main/digital_design/digital_clock/cnt4 (1).v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} D:/main/digital_design/digital_clock/cnt_s60.v {1 {vlog -work work -stats=none D:/main/digital_design/digital_clock/cnt_s60.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_s60
+
+Top level modules:
+	cnt_s60
+
+} {} {}} D:/main/digital_design/digital_clock/cnt_s9.v {1 {vlog -work work -stats=none {D:\main\digital_design\digital_clock\cnt_s9.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_s9
+
+Top level modules:
+	cnt_s9
+
+} {} {}} {D:/main/digital_design/digital_clock/seg7 (1).v} {1 {vlog -work work -stats=none {D:/main/digital_design/digital_clock/seg7 (1).v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7
+
+Top level modules:
+	seg7
+
+} {} {}}

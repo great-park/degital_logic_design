@@ -1,0 +1,283 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/main/digital_design/sync_counter
+vclk_dll
+!s110 1655880603
+!i10b 1
+!s100 dNM2m5@GKd3ST[7XOmLj93
+I=GmmzidV<F?Y:6W[6z0PE1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/main/digital_design/digital_clock
+w1655880019
+8D:/main/digital_design/digital_clock/clk_dll.v
+FD:/main/digital_design/digital_clock/clk_dll.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1655880603.000000
+!s107 D:/main/digital_design/digital_clock/clk_dll.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/clk_dll.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcnt9
+!s110 1655879045
+!i10b 1
+!s100 Pmj`jUS7Lk@J`Hc`jUPd^0
+If6=HcgH4WTSF`fTL_a<jB2
+R0
+R1
+w1655879042
+8D:/main/digital_design/digital_clock/cnt_s9.v
+FD:/main/digital_design/digital_clock/cnt_s9.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1655879045.000000
+!s107 D:/main/digital_design/digital_clock/cnt_s9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/cnt_s9.v|
+!i113 1
+R3
+R4
+vcnt_h2
+Z5 !s110 1655883102
+!i10b 1
+!s100 k1?_JE_zb9h1IITd<V^oX3
+ITCIIG8WD]P8KEF^gO5[WD0
+R0
+R1
+w1655880379
+8D:/main/digital_design/digital_clock/cnt_h2.v
+FD:/main/digital_design/digital_clock/cnt_h2.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1655883102.000000
+!s107 D:/main/digital_design/digital_clock/cnt_h2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/cnt_h2.v|
+!i113 1
+R3
+R4
+vcnt_h3
+R5
+!i10b 1
+!s100 BlPXAazo9dnhf4gFL@I@l0
+I;7P[Wm0fcYCAjjWb0o5_m2
+R0
+R1
+w1655880500
+8D:/main/digital_design/digital_clock/cnt_h3.v
+FD:/main/digital_design/digital_clock/cnt_h3.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/digital_clock/cnt_h3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/cnt_h3.v|
+!i113 1
+R3
+R4
+vcnt_m60
+R5
+!i10b 1
+!s100 NH@S4CeFMglG_Hn`N0N`=1
+IQ?0@[84=62eNfb>maQ@I82
+R0
+R1
+w1655880590
+8D:/main/digital_design/digital_clock/cnt_m60.v
+FD:/main/digital_design/digital_clock/cnt_m60.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/digital_clock/cnt_m60.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/cnt_m60.v|
+!i113 1
+R3
+R4
+vcnt_m9
+R5
+!i10b 1
+!s100 2kL[7VL4j<i9zfLed<A[L0
+IYRAnKK:dSd:Mi^I2nd]9z1
+R0
+R1
+w1655881685
+8D:/main/digital_design/digital_clock/cnt_m9.v
+FD:/main/digital_design/digital_clock/cnt_m9.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/digital_clock/cnt_m9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/cnt_m9.v|
+!i113 1
+R3
+R4
+vcnt_s60
+R5
+!i10b 1
+!s100 FoTdXJf6XoMd_DC9LOR>53
+IZH?0M>B:z;UHAlR;Fcbm72
+R0
+R1
+w1655883096
+8D:/main/digital_design/digital_clock/cnt_s60.v
+FD:/main/digital_design/digital_clock/cnt_s60.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/main/digital_design/digital_clock/cnt_s60.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/cnt_s60.v|
+!i113 1
+R3
+R4
+vcnt_s9
+R5
+!i10b 1
+!s100 @a6fdjd;oabLTP=4GE_4[0
+IOomNcI36N9]MV3gD>Ynkz3
+R0
+R1
+w1655881466
+8D:\main\digital_design\digital_clock\cnt_s9.v
+FD:\main\digital_design\digital_clock\cnt_s9.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:\main\digital_design\digital_clock\cnt_s9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\main\digital_design\digital_clock\cnt_s9.v|
+!i113 1
+R3
+R4
+vcounter
+!s110 1655875002
+!i10b 1
+!s100 Tc6mfTXTTfVW64VWNbEBf2
+IkBWB7W]m`9]FYbGcELOXC3
+R0
+R1
+w1655874902
+8D:/main/digital_design/digital_clock/cnt4 (1).v
+FD:/main/digital_design/digital_clock/cnt4 (1).v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1655875002.000000
+!s107 D:/main/digital_design/digital_clock/cnt4 (1).v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/cnt4 (1).v|
+!i113 1
+R3
+R4
+vseg7
+!s110 1655879107
+!i10b 1
+!s100 ;JJF<6>>YD93:VV4Qbk2z2
+Ia9?0S@aR^3VCC:TlNQoM]1
+R0
+R1
+w1655874903
+Z7 8D:/main/digital_design/digital_clock/seg7_9.v
+Z8 FD:/main/digital_design/digital_clock/seg7_9.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1655879107.000000
+Z9 !s107 D:/main/digital_design/digital_clock/seg7_9.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/seg7_9.v|
+!i113 1
+R3
+R4
+vseg7_9
+Z11 !s110 1655883103
+!i10b 1
+!s100 fIi^@jKFaIKTgCTk2ASMg1
+InanNfOVX6S37XVa5X2oL=2
+R0
+R1
+w1655879175
+R7
+R8
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R9
+R10
+!i113 1
+R3
+R4
+vtb_top_seg7
+R11
+!i10b 1
+!s100 CFYC?=TlokSgGh?ISaWPB2
+IcoQ3CO1I5YH:8zh`7=Glo0
+R0
+R1
+w1655881917
+8D:/main/digital_design/digital_clock/tb_top_seg7.v
+FD:/main/digital_design/digital_clock/tb_top_seg7.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z12 !s108 1655883103.000000
+!s107 D:/main/digital_design/digital_clock/tb_top_seg7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/tb_top_seg7.v|
+!i113 1
+R3
+R4
+vtop_seg7
+R11
+!i10b 1
+!s100 R:[N`4^aSbkZW7@l9=hEn0
+IaAdV>fXed6XB<Y85C>]5z1
+R0
+R1
+w1655879164
+8D:/main/digital_design/digital_clock/top_seg7.v
+FD:/main/digital_design/digital_clock/top_seg7.v
+L0 1
+R2
+r1
+!s85 0
+31
+R12
+!s107 D:/main/digital_design/digital_clock/top_seg7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/main/digital_design/digital_clock/top_seg7.v|
+!i113 1
+R3
+R4
